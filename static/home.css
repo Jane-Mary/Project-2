@@ -1,0 +1,121 @@
+body {
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    padding: 0 3rem;
+    position: fixed;
+    top: 0;
+    height: 3rem;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    align-items: center;
+}
+
+.nav h1 {
+    display: flex;
+    width: 50%;
+    color: #00a8e8;
+    text-align: center;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+    cursor: pointer;
+    font-weight: 500;
+    color: black;
+}
+
+.nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav ul li a#active {
+    color: #00a8e8;
+}
+
+.nav ul li a:hover {
+    color: #00a8e8;
+}
+
+
+.nav button {
+    background-color: #00a8e8;
+    margin: 0 0 0 7rem;
+    padding: 1em;
+    color: white;
+    border: transparent;
+    border-radius: 2em;
+}
+
+.nav button:hover {
+    cursor: pointer;
+    background-color: #023e8a;
+}
+
+
+.container {
+    display: flex;
+    margin-top: 3rem;
+    height: 92vh;
+    background: linear-gradient(to bottom, white 95%, #00a8e8);
+} 
+
+.container .content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: xx-large;
+    font-weight: 10;
+    color: rgb(6, 6, 6);
+}
+
+.container .content p {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .content span.one {
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.container .content span.one .span3 {
+    color: #00a8e8;
+}
+
+.container .content span.two {
+
+    font-size: 2rem;
+    width: 80%;
+    font-weight: 500;
+}
+
+.container .image {
+    width: 40%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .svg {
+    width: 100%;
+
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='kit.css') }}">
+</head>
+
+<body>
+    <div class="nav">
+        <h1>Comfy Homes</h1>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/liv">Living</a></li>
+            <li><a href="/bed">Bedroom </a></li>
+            <li><a href="/din">Dining</a></li>
+            <li><a href="/kit" id="active">Kitchen</a></li>
+            <!-- <li routerLinkActive="activelink" routerLink="/favourites"><a href="/liv" >Living</a>Favourites</li> -->
+
+        </ul>
+
+        <button>Logout</button>
+
+    </div>
+        <div class="images">
+            <div class="image">
+                <img src="{{ url_for('static', filename='/images/kitchen1.png') }}" alt="kit1">
+                    <h3>Price:450,000frs</h3>
+                    <h3>Location:Bamenda</h3>
+                    <h3>Shop Location:Commercial avenue shed 385</h3>
+            </div>
+            <div class="image">
+                <img src="{{ url_for('static', filename='/images/kitchen2.jpeg') }}" alt="kit2">
+                    <h3>Price:450,000frs</h3>
+                    <h3>Location:Bamenda</h3>
+                    <h3>Shop Location:Commercial avenue shed 385</h3>
+            </div>
+            <div class="image">
+                <img src="{{ url_for('static', filename='/images/kitchen3.jpeg') }}" alt="kit3">
+                    <h3>Price:450,000frs</h3>
+                    <h3>Location:Bamenda</h3>
+                    <h3>Shop Location:Commercial avenue shed 385</h3>
+            </div>
+            <div class="image">
+                <img src="{{ url_for('static', filename='/images/kitchen4.jpeg') }}" alt="kit4">
+                    <h3>Price:450,000frs</h3>
+                    <h3>Location:Bamenda</h3>
+                    <h3>Shop Location:Commercial avenue shed 385</h3>
+            </div>
+            <div class="image">
+                <img src="{{ url_for('static', filename='/images/kitchen5.jpeg') }}" alt="kit5">
+                    <h3>Price:450,000frs</h3>
+                    <h3>Location:Bamenda</h3>
+                    <h3>Shop Location:Commercial avenue shed 385</h3>
+            </div>
+            <div class="image">
+                <img src="{{ url_for('static', filename='/images/kitchen6.png') }}" alt="kit6">
+                    <h3>Price:450,000frs</h3>
+                    <h3>Location:Bamenda</h3>
+                    <h3>Shop Location:Commercial avenue shed 385</h3>
+            </div>
+            <div class="image">
+                <img src="{{ url_for('static', filename='/images/kitchen7.jpg') }}" alt="kit7">
+                    <h3>Price:450,000frs</h3>
+                    <h3>Location:Bamenda</h3>
+                    <h3>Shop Location:Commercial avenue shed 385</h3>
+            </div>
+            <div class="image">
+                <img src="{{ url_for('static', filename='/images/kitchen8.jpeg') }}" alt="kit8">
+                    <h3>Price:450,000frs</h3>
+                    <h3>Location:Bamenda</h3>
+                    <h3>Shop Location:Commercial avenue shed 385</h3>
+            </div>
+
+            <div class="image">
+                <img src="{{ url_for('static', filename='/images/kitchen9.jpg') }}" alt="kit9">
+                    <h3>Price:450,000frs</h3>
+                    <h3>Location:Bamenda</h3>
+                    <h3>Shop Location:Commercial avenue shed 385</h3>
+            </div>
+        </div>
+
+</body>

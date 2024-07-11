@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+</head>
+
+<body>
+    <div class="nav">
+        <h1>Comfy Homes</h1>
+        <ul> 
+            <li><a href="/"  id="active">Home</a></li>
+            <li><a href="/liv">Living</a></li>
+            <li><a href="/bed">Bedroom </a></li>
+            <li><a href="/din">Dining</a></li>
+            <li><a href="/kit">Kitchen</a></li>
+        </ul>
+        <form action="/auth/logout" method="post">
+            <button type="submit">Logout</button>
+        </form>
+    </div>
+    <div class="container">
+        <div class="content">
+            <p>
+                <span class="one">Welcome To <span class="span3">Comfy Homes </span> </span>
+                <span class="two">Design Is The Reflection Of Your Personality </span>
+            </p>
+        </div>
+        <div class="image">
+            <object class="svg" data="static/images/house.svg"></object>
+        </div>
+    </div>
+</body>
+
+</html>
